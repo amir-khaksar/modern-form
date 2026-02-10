@@ -16,7 +16,7 @@
 
 ```bash
 git clone https://github.com/amir-khaksar/modern-form.git
-cd 3d-flip-auth-forms
+cd modern-form
 npm install
 npm run dev
 ```
