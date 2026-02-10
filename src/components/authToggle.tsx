@@ -3,10 +3,15 @@ import { LogIn, UserPlus } from "lucide-react";
 
 const iconProps = { size: 18, strokeWidth: 2.2 };
 
-export default function authToggle() {
+interface AuthToggleProps {
+    isFlipped: boolean;
+    toggle: () => void;
+}
+
+export default function AuthToggle({ isFlipped, toggle }: AuthToggleProps) {
     return (
         <>
-            {/* <motion.span
+            <motion.span
                 animate={{
                     color: !isFlipped ? "#4f46e5" : "#9ca3af",
                     scale: !isFlipped ? 1.05 : 1,
@@ -70,7 +75,7 @@ export default function authToggle() {
                 className="font-semibold"
             >
                 Register
-            </motion.span> */}
+            </motion.span>
         </>
     );
 }
