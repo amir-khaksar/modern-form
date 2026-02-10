@@ -1,4 +1,3 @@
-// LoginForm.tsx
 export default function LoginForm() {
     return (
         <div className="h-full flex items-center justify-center">
