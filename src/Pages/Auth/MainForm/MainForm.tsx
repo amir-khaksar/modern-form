@@ -3,7 +3,7 @@ import LoginForm from "../LoginForm/LoginForm";
 import RegisterForm from "../RegisterForm/RegisterForm";
 
 import "./MainForm.css";
-import AuthToggle from "../../../components/authToggle";
+import AuthToggle from "../../../components/AuthToggle";
 
 function MainForm(): React.ReactElement {
     const [isFlipped, setIsFlipped] = useState(false);
@@ -13,8 +13,8 @@ function MainForm(): React.ReactElement {
     };
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center gap-8 bg-linear-to-br from-slate-100 to-slate-200 p-4">
-            <div className="flex items-center gap-4 bg-white px-6 py-4 rounded-full shadow-lg">
+        <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-linear-to-br from-slate-100 to-slate-200">
+            <div className="flex items-center gap-4 bg-white px-6 py-4 rounded-2xl shadow-lg">
                 <AuthToggle toggle={toggle} isFlipped={isFlipped} />
             </div>
 
