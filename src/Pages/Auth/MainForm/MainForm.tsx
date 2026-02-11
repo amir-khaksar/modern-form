@@ -27,7 +27,7 @@ function MainForm(): React.ReactElement {
                             isFlipped ? "rotate-y-180" : ""
                         }`}
                     >
-                        <div className="absolute inset-0 backface-hidden h-fit">
+                        <div className="absolute inset-0 h-fit">
                             <LoginForm />
                         </div>
                         <div className="absolute inset-0 backface-hidden rotate-y-180 h-fit">
