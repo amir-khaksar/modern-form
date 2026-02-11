@@ -10,7 +10,7 @@ interface AuthToggleProps {
 
 export default function AuthToggle({ isFlipped, toggle }: AuthToggleProps) {
     return (
-        <>
+        <div className="flex items-center justify-center gap-6">
             <motion.span
                 animate={{
                     color: !isFlipped ? "#4f46e5" : "#9ca3af",
@@ -76,6 +76,6 @@ export default function AuthToggle({ isFlipped, toggle }: AuthToggleProps) {
             >
                 Register
             </motion.span>
-        </>
+        </div>
     );
 }
