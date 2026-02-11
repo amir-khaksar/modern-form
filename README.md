@@ -2,8 +2,8 @@
 
 3D flip authentication UI with animated transition between login and register forms.
 
-![Preview](./public//screenshots/Login.png)
-![Preview](./public//screenshots/Register.png)
+![Preview](./public/screenshots/Login.png)
+![Preview](./public/screenshots/Register.png)
 
 ## Features
 
