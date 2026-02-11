@@ -17,7 +17,8 @@ export default function AuthToggle({ isFlipped, toggle }: AuthToggleProps) {
                     scale: !isFlipped ? 1.05 : 1,
                 }}
                 transition={{ duration: 0.3 }}
-                className="font-semibold"
+                className="font-semibold cursor-pointer"
+                onClick={toggle}
             >
                 Login
             </motion.span>
@@ -26,7 +27,7 @@ export default function AuthToggle({ isFlipped, toggle }: AuthToggleProps) {
                 onClick={toggle}
                 whileTap={{ scale: 0.95 }}
                 whileHover={{ scale: 1.05 }}
-                className="relative w-16 h-8 bg-linear-to-r from-indigo-500 to-purple-500 rounded-full focus:outline-none focus:ring-4 focus:ring-purple-200"
+                className="relative w-16 h-8 bg-linear-to-r from-indigo-500 to-purple-500 rounded-full cursor-pointer focus:outline-none focus:ring-4 focus:ring-purple-200"
             >
                 <motion.div
                     animate={{ x: isFlipped ? 32 : 0 }}
@@ -72,7 +73,8 @@ export default function AuthToggle({ isFlipped, toggle }: AuthToggleProps) {
                     scale: isFlipped ? 1.05 : 1,
                 }}
                 transition={{ duration: 0.3 }}
-                className="font-semibold"
+                className="font-semibold cursor-pointer"
+                onClick={toggle}
             >
                 Register
             </motion.span>

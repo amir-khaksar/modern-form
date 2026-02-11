@@ -13,7 +13,7 @@ function MainForm(): React.ReactElement {
     };
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center m-2">
+        <div className="min-h-screen flex flex-col items-center justify-center p-2">
             <div className="w-full max-w-md">
                 <div className="w-full mb-4">
                     <div className="bg-white px-6 py-4 rounded-2xl shadow-lg">
